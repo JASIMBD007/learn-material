@@ -19,6 +19,10 @@ export default function MuiSelect() {
         SelectProps={{
           multiple: true, // to select multiple options
         }}
+        size="small" // to make the input field small
+        color="secondary" // to change the color of the input field
+        helperText="Please select your country"
+        error
       >
         <MenuItem value="IN">India</MenuItem>
         <MenuItem value="BD">Bangladesh</MenuItem>
