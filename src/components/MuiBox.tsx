@@ -1,3 +1,5 @@
+import { Box } from "@mui/material";
+
 export default function MuiBox() {
   return (
     <Box>
